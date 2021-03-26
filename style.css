@@ -1,0 +1,21 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-color: rgba(255, 242, 0, 0.432);
+}
+
+#project {
+  background-color: rgba(255, 242, 0, 0.432);
+}
+
+#contact {
+  background-color: rgba(255, 242, 0, 0.432);
+}
+
+.link-button {
+  text-decoration: none;
+  background-color: #ffc93c;
+  color: black;
+  padding: 2px 6px 2px 6px;
+  border: 2px solid #c2c2c2;
+  border-radius: 5px;
+}
