@@ -1,21 +1,76 @@
 .jumbotron {
   padding-top: 5rem;
-  background-color: rgba(255, 242, 0, 0.432);
+  background-color: hsla(61, 100%, 60%, 0.699);
 }
 
 #project {
-  background-color: rgba(255, 242, 0, 0.432);
+  background-color: hsla(61, 100%, 60%, 0.699);
 }
 
 #contact {
-  background-color: rgba(255, 242, 0, 0.432);
+  background-color: hsla(61, 100%, 60%, 0.699);
 }
 
 .link-button {
   text-decoration: none;
   background-color: #ffc93c;
   color: black;
-  padding: 2px 6px 2px 6px;
-  border: 2px solid #c2c2c2;
-  border-radius: 5px;
+  padding: 4px 12px 4px 12px;
+  border: 9px solid #ffc93c;
+  border-radius: 9px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #34495e;
+}
+.box {
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 150px;
+  left: center;
+  bottom: center;
+  background: #191919;
+  text-align: center;
+}
+.box-h1 {
+  text-transform: uppercase;
+  font-weight: 50;
+}
+.box-input[type="text"],
+.box-input[type="email"] {
+  border-radius: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box-input[type="text"]:focus,
+.box-input[type="password"]:focus {
+  width: 280px;
+  border-color: #2ecc71;
+}
+.box-input[type="submit"]:focus {
+  border-radius: 0;
+  background: none;
+  color: black;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
 }
