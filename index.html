@@ -23,7 +23,7 @@
       <input type="email" name="email" placeholder="email" />
       <br>
       <br>
-      <input type="text" name="jam" placeholder="jam" />
+      <input type="datetime-local" name="waktu" placeholder="waktu" />
       <br>
       <br>
       <button type="submit" class="btn btn-primary btn-absen">ENTER</button>
@@ -43,15 +43,15 @@
         const myAlert = document.querySelector('.my-alert');
       
         form.addEventListener('submit', e => {
-    e.preventDefault()
-     //ketika tombol submit di klik
+          e.preventDefault()
+          //ketika tombol submit di klik
           //tampilkan tombol loding, hilangkan tombol kirim
           btnMasuk.classList.toggle('d-none')
           btnAbsen.classList.toggle('d-none')
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
-      .catch(error => console.error('Error!', error.message))
-  })
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+        })
       </script>
     </form>
   </body>
